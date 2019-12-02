@@ -6,7 +6,7 @@ pipeline {
     stages {
          stage('Lint HTML') {
             steps {
-                sh '/usr/share/nginx/html/DevOps_Capstone/app/*.html'
+                sh 'tidy -q -e /usr/share/nginx/html/DevOps_Capstone/app/*.html'
             }
          }
 
