@@ -13,7 +13,7 @@ pipeline {
          stage('Docker Build') {
             steps {
                 sh 'cd /usr/share/nginx/html/DevOps_Capstone/'
-                sh 'sudo ./docker_build.sh'
+                sh 'sudo docker build --tag=angelo0203/devopscapstone:latest .'
             }
          }
 
