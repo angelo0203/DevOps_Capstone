@@ -10,6 +10,13 @@ pipeline {
             }
          }
 
+         stage('Docker Build') {
+            steps {
+                sh 'cd /usr/share/nginx/html/DevOps_Capstone/'
+                sh './docker_build.sh'
+            }
+         }
+
     }
 }
 
