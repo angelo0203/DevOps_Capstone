@@ -17,6 +17,12 @@ pipeline {
             }
          }
 
+         stage('Upload Build') {
+            steps {
+                sh 'sudo docker push angelo0203/devopscapstone'
+            }
+         }
+
     }
 }
 
