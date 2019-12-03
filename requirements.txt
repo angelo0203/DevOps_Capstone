@@ -1,3 +1,0 @@
-pylint
-flask
-pylint-flask
