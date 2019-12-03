@@ -1,3 +1,3 @@
 FROM nginx:1.17-alpine
 
-COPY app /usr/share/nginx/html/DevOps_Capstone/app
+COPY app /usr/share/nginx/html/
