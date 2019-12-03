@@ -6,7 +6,7 @@ pipeline {
     stages {
          stage('Lint HTML') {
             steps {
-                sh 'tidy -q -e /app/*.html'
+                sh 'tidy -q -e /DevOps_Capstone/app/*.html'
             }
          }
 
