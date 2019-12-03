@@ -13,13 +13,13 @@ pipeline {
          stage('Docker Build') {
             steps {
                 sh 'cd /DevOps_Capstone/'
-                sh 'sudo docker build --tag=angelo0203/devopscapstone:latest .'
+                sh 'docker build --tag=angelo0203/devopscapstone:latest .'
             }
          }
 
          stage('Upload Build') {
             steps {
-                sh 'sudo docker push angelo0203/devopscapstone'
+                sh 'docker push angelo0203/devopscapstone'
             }
          }
 
