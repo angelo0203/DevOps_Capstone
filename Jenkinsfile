@@ -19,7 +19,6 @@ pipeline {
 
          stage('Upload Build') {
             steps {
-                sh 'sudo docker login -u angelo0203 -p xiaoMao840212 '
                 sh 'sudo docker push angelo0203/devopscapstone'
             }
          }
