@@ -13,7 +13,7 @@ pipeline {
          stage('Docker Build') {
             steps {
                 sh 'cd /DevOps_Capstone/'
-                sh 'docker build --tag=angelo0203/devopscapstone:latest .'
+                sh 'sudo docker build --tag=angelo0203/devopscapstone:latest .'
             }
          }
 
