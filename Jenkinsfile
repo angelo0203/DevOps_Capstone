@@ -23,6 +23,12 @@ pipeline {
             }
          }
 
+         stage('Build Containter') {
+            steps {
+                sh 'sudo docker container create angelo0203/devopscapstone:latest'
+            }
+         }
+
     }
 }
 
