@@ -1,4 +1,4 @@
-Steps Deployment
+Steps for Deployment
 
 1. Upload the docker images for the "green" and "blue" deployment, by deploy the pipline within each folder
 2. Start create the EKS cluster by running the "create_cluster.sh"
