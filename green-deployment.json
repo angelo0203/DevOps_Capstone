@@ -22,7 +22,7 @@
           "spec":{
              "containers":[
                 {
-                   "name":"blue",
+                   "name":"green",
                    "image":"angelo0203/devopsgreen",
                    "ports":[
                       {

@@ -1,4 +1,4 @@
-apiVersion: eksctl.io/v1alpha3
+apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
@@ -9,4 +9,4 @@ metadata:
 nodeGroups:
   - name: linux-ng
     instanceType: t2.micro
-    desiredCapacity: 3
+    desiredCapacity: 2
